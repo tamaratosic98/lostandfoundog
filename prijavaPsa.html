@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+        <link rel="stylesheet" type="text/css" href="css/stylePrijavaPsa.css" />
+        <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+        <title>Prijavi psa</title>
+</head>
+
+<body>
+        <div id="wrap">
+                <nav class="main-nav">
+                        <ul>
+                                <img src="img/logo.png" width=220px>
+                                <li><a href="index.html">Naslovna</a></li>
+                                <li><a href="pronadjeniPsi.html">Pronadjeni psi</a></li>
+                                <li><a href="izgubljeniPsi.html">Izgubljeni psi</a></li>
+                                <li><a href="#">Prijavi psa</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                </nav>
+
+                <form class="forma" id="forma">
+                        <div id="myModal" class="modal">
+                                <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <div id="caption"></div>
+                                        <br>
+                                        <img src="img/dog4.gif" width:100px>
+                                </div>
+                        </div>
+                        <div class=info>
+                                <p>Odaberite jednu opciju:</p>
+                                <div class="container">
+                                        <label for="lost">Izgubio/la sam psa</label>
+                                        <input type="radio" class="radio" name="tipPrijave" value="lost" id="lost" />
+                                </div>
+                                <div class="container">
+                                        <label for="found">Pronašao/la sam psa</label>
+                                        <input type="radio" class="radio" name="tipPrijave" value="found" id="found" />
+                                </div>
+                                <p>Informacije o vama:</p>
+                                <div class="msg"></div>
+                                <div class="grupa">
+                                        <label>Ime *</label>
+                                        <input type="text" name="firstName" placeholder="Unesite svoje ime"
+                                                id="firstName">
+                                </div>
+                                <div class="grupa">
+                                        <label>Prezme</label>
+                                        <input type="text" name="lastName" placeholder="Unesite svoje prezime"
+                                                id="lastName">
+                                </div>
+                                <div class="grupa">
+                                        <label>Kontakt *</label>
+                                        <input type="number" name="phoneNumber" placeholder="Unesite svoj telefon"
+                                                id="phoneNumber">
+                                </div>
+                        </div>
+                        <div class="info">
+                                <p>Informacije o psu:</p>
+                                <div class="grupa">
+                                        <label>Rasa</label>
+                                        <select name="rasa" id="breed">
+                                                <option value="Ne znam">Ne znam</option>
+                                                <option value="Mešanac">Mešanac</option>
+                                                <option value="Labrador">Labrador</option>
+                                                <option value="Škotski terijer">Škotski terijer</option>
+                                                <option value="Šnaucer">Šnaucer</option>
+                                                <option value="Malinoa">Malinoa</option>
+                                                <option value="Maltezer">Maltezer</option>
+                                                <option value="Vesti">Vesti</option>
+                                                <option value="Zlatni retriver">Zlatni retriver</option>
+                                                <option value="Haski">Haski</option>
+                                                <option value="Akita">Akita</option>
+                                                <option value="Pomeranac">Pomeranac</option>
+                                                <option value="Buldog">Buldog</option>
+                                                <option value="Pudlica">Pudlica</option>
+                                                <option value="Čivava">Čivava</option>
+                                                <option value="Rotvajler">Rotvajler</option>
+                                                <option value="Doberman">Doberman</option>
+                                                <option value="Samojed">Samojed</option>
+
+                                        </select>
+                                </div>
+                                <div class="grupa">
+                                        <label>Pol</label>
+                                        <select name="pol" id="dogsGender">
+                                                <option value="muški">Muški</option>
+                                                <option value="ženski">Ženski</option>
+                                                <option value="neodređeno">Ne znam</option>
+                                        </select>
+
+                                </div>
+                                <div class="grupa">
+                                        <label>Lokacija *</label>
+                                        <input type="text" name="location"
+                                                placeholder="Unesite lokaciju na kojoj je viđen" id="location">
+                                </div>
+                                <div class="grupa">
+                                        <label>Kratki opis</label>
+                                        <textarea name="message" placeholder="Unesite kratki opis psa"
+                                                id="shortDesc"></textarea>
+                                </div>
+                                <div class="grupa">
+                                        <label>Unesite fotografiju ili video zapis psa</label>
+                                        <input class="file" type="file" value="Izaberi datoteku">
+                                </div>
+                                <p>Ako ste vi izgubili:</p>
+                                <div class="grupa">
+                                        <label>Starost</label>
+                                        <input type="number" name="age" placeholder="Unesite starost psa" id="dogsAge">
+                                </div>
+                                <div class="grupa">
+                                        <label>Ime psa</label>
+                                        <input type="text" name="firstName" placeholder="Unesite ime psa" id="dogsName">
+                                </div>
+                        </div>
+                        <div class="info">
+                                <input class="button" onclick="function1()" type="submit" value="Prijavi" id="myBtn">
+                        </div>
+
+                </form>
+                <footer id="mainFooter">
+                        <ul>
+                                <li>Broj telefona:+38163871264 </li>
+                                <li>Email:lostandfoundog@gmail.com </li>
+                        </ul>
+                        <p>Copyright &copy; 2019</p>
+                        <p>Powered by:Tijana Trifunović and Tamara Tošić</p>
+                </footer>
+        </div>
+        <script type="text/javascript" src="js/prijavaPsa.js"></script>
+</body>
+
+</html>

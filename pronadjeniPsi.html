@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="css/izProDefault.css" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <title>Pronadjeni psi</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <nav class="main-nav">
+            <ul>
+                <img src="img/logo.png" width=220px>
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="#">Pronadjeni psi</a></li>
+                <li><a href="izgubljeniPsi.html">Izgubljeni psi</a></li>
+                <li><a href="prijavaPsa.html">Prijavi psa</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div id="middle">
+
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <ul>
+                <li>
+
+                    <img src="img/snaucerpro.jpg" width="200px" onclick="showImg(this);" alt="Šnaucer">
+
+
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Šnaucer</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Vladimira Mitrovića 59</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Dunja</li>
+                        <li>Prezime: Stanić</li>
+                        <li>Kontakt: +38162816523</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/civavapro.jpg" width="200px" onclick="showImg(this);" alt="Čivava">
+
+
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Čivava</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Miodraga Ibrovca 39</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Anja</li>
+                        <li>Prezime: Jovanović</li>
+                        <li>Kontakt: +38160182635</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/nemackipro.jpg" width="200px" onclick="showImg(this);" alt="Nemački ovčar">
+
+
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Nemački ovčar</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Vidikovački venac 78</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Ognjen</li>
+                        <li>Prezime: Milićević</li>
+                        <li>Kontakt: +38165278551</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/haskipro.jpg" width="200px" onclick="showImg(this);" alt="Haski">
+
+
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Haski</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Bulevar JNA 218b</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Petar</li>
+                        <li>Prezime: Arsić</li>
+                        <li>Kontakt: +38169751418</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/kanekorsopro.jpg" width="200px" onclick="showImg(this);" alt="Kane Korso">
+
+
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Kane Korso</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Branka Bulata 3</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Nikola</li>
+                        <li>Prezime: Šušić</li>
+                        <li>Kontakt: +38164815426</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/mopspro.jpg" width="200px" onclick="showImg(this);" alt="Mops">
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Mops</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Domentijanova 5</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Isidora</li>
+                        <li>Prezime: Šaponjić</li>
+                        <li>Kontakt: +38161739765</li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <img src="img/zlatnipro.jpg" width="200px" onclick="showImg(this);" alt="Zlatni retriver">
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Zlatni retriver</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Neznanog junaka 89</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Biljana</li>
+                        <li>Prezime: Krivokapić</li>
+                        <li>Kontakt: +38163448193</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/boopro.jpg" width="200px" onclick="showImg(this);" alt="Boo">
+
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Boo</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Dedinjska 63</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Tijana</li>
+                        <li>Prezime: Trifunović</li>
+                        <li>Kontakt: +3816539251</li>
+
+                    </ul>
+
+
+
+                </li>
+                <li>
+                    <img src="img/skotskipro.jpg" width="200px" onclick="showImg(this);" alt="Škotski terijer">
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Škotski terijer</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Bajronova 98</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Dušan</li>
+                        <li>Prezime: Stojković</li>
+                        <li>Kontakt: +38161834761</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/francuskipro.jpg" width="200px" onclick="showImg(this);" alt="Francuski buldog">
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Francuski buldog</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Milovana Marinkovića 26</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Jovana</li>
+                        <li>Prezime: Tasić</li>
+                        <li>Kontakt: +38165963427</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/dogapro.jpg" width="200px" onclick="showImg(this);" alt="Doga">
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Doga</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Piroćančeva 16</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Milica</li>
+                        <li>Prezime: Perić</li>
+                        <li>Kontakt: +38162963195</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/labradorpro.jpg" width="200px" onclick="showImg(this);" alt="Labrador">
+                    <ul>
+                        <p>Informacije o psu: </p>
+                        <li>Rasa: Labrador</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija:</li>
+                        <li>Kratki opis: -</li>
+                        <p>Informacije o pronalazaču:</p>
+                        <li>Ime: Andrijana</li>
+                        <li>Prezime: Krkobabić</li>
+                        <li>Kontakt: +38166307504</li>
+
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+        <footer id="mainFooter">
+
+            <ul>
+                <li>Broj telefona:+38163871264 </li>
+                <li>Email:lostandfoundog@gmail.com </li>
+            </ul>
+            <p>Copyright &copy; 2019</p>
+            <p>Powered by:Tijana Trifunović and Tamara Tošić</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/izProDefault.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="css/izProDefault.css" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <title>Izgubljeni psi</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <nav class="main-nav">
+            <ul>
+                <img src="img/logo.png" width=220px>
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="pronadjeniPsi.html">Pronadjeni psi</a></li>
+                <li><a href="#">Izgubljeni psi</a></li>
+                <li><a href="prijavaPsa.html">Prijavi psa</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div id="middle">
+
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <ul>
+                <li>
+                    <img src="img/labradorizg.jpg" width="200px" onclick="showImg(this);" alt="Labrador">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Labrador</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Josipa Slavenskog 45</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 6</li>
+                        <li>Ime: Mare</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Tamara</li>
+                        <li>Prezime: Tošić</li>
+                        <li>Kontakt: +38065490854</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/snaucerizg.jpg" width="200px" onclick="showImg(this);" alt="Šnaucer">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Šnaucer</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Miloja Đaka 8</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 3</li>
+                        <li>Ime: Lea</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Dunja</li>
+                        <li>Prezime: Cvetković</li>
+                        <li>Kontakt: +38165490384</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/francuskiizg.jpg" width="200px" onclick="showImg(this);" alt="Francuski buldog">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Francuski buldog</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Velisava Vulovića 23</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 9</li>
+                        <li>Ime: Zoran</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Elena</li>
+                        <li>Prezime: Škarić</li>
+                        <li>Kontakt: +3816492840</li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+
+                    <img src="img/dogaizg.jpg" width="200px" onclick="showImg(this);" alt="Doga">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Doga</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Mileševska 76</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 2</li>
+                        <li>Ime: Arhondisa</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Pedja</li>
+                        <li>Prezime: Marić</li>
+                        <li>Kontakt: +38163198402</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/booizg.jpg" width="200px" onclick="showImg(this);" alt="Boo">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Boo</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Makenzijeva 87</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 10</li>
+                        <li>Ime: Beban</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Jovana</li>
+                        <li>Prezime: Vladić</li>
+                        <li>Kontakt: +38163846205</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/nemackiizg.jpg" width="200px" onclick="showImg(this);" alt="Nemački ovčar">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Nemački ovčar</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Daničareva 37</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 8</li>
+                        <li>Ime: Aleks</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Emilija</li>
+                        <li>Prezime: Profirović</li>
+                        <li>Kontakt: +38164638593</li>
+                    </ul>
+
+                </li>
+
+                <li>
+                    <img src="img/haskiizg.jpg" width="200px" onclick="showImg(this);" alt="Haski">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Haski</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Deligradska 3</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 4</li>
+                        <li>Ime: Vlasta</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Aleksandra</li>
+                        <li>Prezime: Stanković</li>
+                        <li>Kontakt: +38161836474</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/civavaizg.jpg" width="200px" onclick="showImg(this);" alt="Čivava">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Čivava</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Kolubarska 23</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 7</li>
+                        <li>Ime: Tami</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Ivan</li>
+                        <li>Prezime: Mirić</li>
+                        <li>Kontakt: +38160752858</li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <img src="img/skotskiizg.jpg" width="200px" onclick="showImg(this);" alt="Škotski terijer">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Škotski terijer</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Zaplanjska 39</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 1</li>
+                        <li>Ime: Frodo</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Đina</li>
+                        <li>Prezime: Trpčevski</li>
+                        <li>Kontakt: +38166946427</li>
+                    </ul>
+
+                </li>
+
+                <li>
+                    <img src="img/zlatniizg.jpg" width="200px" onclick="showImg(this);" alt="Zlatni retriver">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Zlatni retriver</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Đorđa Andrejevića-Kuna 8</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 5</li>
+                        <li>Ime: Malena</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Andrea</li>
+                        <li>Prezime: Krajčinović</li>
+                        <li>Kontakt: +38166745285</li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="img/mopsizg.jpg" width="200px" onclick="showImg(this);" alt="Mops">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Mops</li>
+                        <li>Pol: Muški</li>
+                        <li>Lokacija: Meštrovićeva 96</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 7</li>
+                        <li>Ime: Reks</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Dimitrije</li>
+                        <li>Prezime: Žikelić</li>
+                        <li>Kontakt: +38165853678</li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="img/kanekorsoizg.jpg" width="200px" onclick="showImg(this);" alt="Kane Korso">
+                    <ul>
+                        <p>Informacije o psu:</p>
+                        <li>Rasa: Kane korso</li>
+                        <li>Pol: Ženski</li>
+                        <li>Lokacija: Bulevar Peka Dapčevića 239</li>
+                        <li>Kratki opis: /</li>
+                        <li>Starost: 3</li>
+                        <li>Ime: Debelica</li>
+                        <p>Informacije o vlasniku:</p>
+                        <li>Ime: Igor</li>
+                        <li>Prezime: Krstić</li>
+                        <li>Kontakt: +381662937505</li>
+                    </ul>
+                </li>
+        </div>
+        <footer id="mainFooter">
+            <ul>
+                <li>Broj telefona:+38163871264 </li>
+                <li>Email:lostandfoundog@gmail.com </li>
+            </ul>
+            <p>Copyright &copy; 2019</p>
+            <p>Powered by:Tijana Trifunović and Tamara Tošić</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/izProDefault.js"></script>
+</body>
+
+</html>
